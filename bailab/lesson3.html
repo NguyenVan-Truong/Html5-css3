@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lesson3.css">
+</head>
+
+<body>
+    <div class="container">
+        <header><img src="logo-removebg-preview.png" alt="" class="banner"></header>
+
+
+        <nav>
+            <ul>
+                <li><a href="">Trang chủ</a></li>
+                <li class="xuoc">/</li>
+                <li><a href="">HTML5 cơ bản</a></li>
+                <li class="xuoc">/</li>
+                <li><a href="">HTML5 nâng cao</a></li>
+                <li class="xuoc">/</li>
+                <li><a href="">kỹ thuật html5</a></li>
+                <li class="xuoc">/</li>
+                <li><a href="">tin tức html5</a></li>
+                <li class="xuoc">/</li>
+                <li><a href="">đăng kí</a></li>
+                <li class="xuoc">/</li>
+                <li><a href="">đăng nhập</a></li>
+                <li class="xuoc">/</li>
+                <li><a href="">liên hệ</a></li>
+                <hr>
+            </ul>
+        </nav>
+        <article>
+            <h3>Chào mừng bạn đến với tạp chí HTML5 & CSS3</h3>
+            <hr width=" 750px" style="margin-left: 20px;">
+            <div>
+
+                <form action="">
+                    <table>
+
+                        <tr>
+
+                            <th><label for="userName" class="lable">Tên đăng nhập:</label></th>
+
+                            <th><input type="text" id="userName" class="input"></th>
+                            <th><span id="checkUserName" class="error"></span></th>
+                        </tr>
+                        <tr>
+                            <th><label for="pass" class="lable">Mật khẩu:</label></th>
+
+
+                            <th><input type="text" id="pass" class="input"></th>
+                            <th> <span id="checkPass" class="error"></span></th>
+                        </tr class="hang">
+                        <tr>
+                            <th><label for="email" class="lable">Email:</label></th>
+
+
+                            <th> <input type="text" id="email" class="input"></th>
+                            <th><span id="checkEmail" class="error"></span></th>
+                        </tr>
+                        <tr>
+                            <th> <label for="city" class="lable">Thành Phố:</label></th>
+
+
+                            <th> <input list="city" id="inputcity" class="input"></th>
+                            <datalist id="city" value="">
+                                <option value="Hà Nội"></option>
+                                <option value="Hải Phòng"></option>
+                                <option value="Hải Dương"></option>
+                                <option value="Thái Bình"></option>
+                                <option value="Hà Tĩnh"></option>
+                            </datalist>
+                            <th><span id="checkCity" class="error"></span></th>
+                        </tr>
+                        <tr>
+                            <th><label for="">Độ tuổi trung bình:</label></th>
+                            <th><input type="range" name="" id="dotuoitb"
+                                    style="height: 2px; width: 280px; margin-left: 95px;"
+                                    min="18" max="40"
+                                    step="1">
+                            <th><span id="checkdotuoitb" class="error"></span>
+                        </tr>
+                    </table>
+
+                </form>
+            </div>
+            <!-- lựa chọn -->
+
+            <div class="chon">
+                <h5>Bạn muốn theo dõi bài viết từ chủ đề nào</h5>
+                <div class="item">
+                    <div class="itemleft">
+                        <input type="checkbox" class="checkbox" value="HTML5 cơ bản">
+                        <label for="html5coban">HTML5 cơ bản</label>
+                    </div>
+                    <div class="itemright">
+                        <input type="checkbox" class="checkbox" value="HTML5 nâng cao">
+                        <label for="html5nangcao">HTML5 nâng cao</label>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemleft">
+                        <input type="checkbox" class="checkbox" value="CSS3 cơ bản">
+                        <label for="css3coban">CSS3 cơ bản</label>
+                    </div>
+                    <div class="itemright">
+                        <input type="checkbox" class="checkbox" value="CSS3 nâng cao">
+                        <label for="css3nangcao">CSS3 nâng cao</label>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+
+                <input type="button" id="lamlai" value="Làm lại" class="button1">
+                <input type="button" id="dangki" value="Đăng kí" class="button1">
+
+
+            </div>
+            <div class="khongbtdattengi">
+                <h3>Thành phần HTML5</h3>
+                <hr width=" 750px" style="margin-left: 20px;">
+            </div>
+            <div class="img">
+                <img src="banner.jpg" alt="">
+            </div>
+
+
+
+
+
+
+            <hr width=" 750px" style="margin-left: 20px;">
+            <hr width="1200px" style="margin-top: 40px;">
+        </article>
+
+        <aside><img src="aside.jpg" alt=""></aside>
+
+        <footer>Đây là trang web thực hành dành cho sinh viên FPT polytechnic</footer>
+
+
+
+
+
+    </div>
+</body>
+<script src="lesson3.js"></script>
+
+</html>

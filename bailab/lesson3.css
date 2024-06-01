@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #EBEBEB;
+    min-height: 900px;
+}
+
+.banner {
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+
+}
+
+nav ul hr {
+    color: #11e984;
+}
+
+nav {
+    background-color: #EBEBEB;
+}
+
+nav ul li {
+    display: inline-block;
+    /* padding: px 40px; */
+    padding: 5px;
+    color: #11e984;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #E54D26;
+    text-transform: uppercase;
+}
+aside{
+    min-height: 590px;
+
+}
+article {
+    float: left;
+    width: 70%;
+    background-color: #EBEBEB;
+    padding-top: 20px;
+    min-height: 590px;
+}
+article h3{
+    font-size: 20px;
+    color: rgb(0, 128, 255);
+    padding-left: 20px;
+    padding-top: 10px;
+}
+article hr{
+    padding-left: 20px;
+}
+aside {
+    float: right;
+    width: 30%;
+    background-color: #EBEBEB;
+    padding-top: 20px;
+}
+
+.input{
+   margin-left: 100px;
+}
+
+article .chon{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+article .item{
+    text-align: left;
+    display: flex;
+    margin: 3px;
+}
+article .itemleft{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+article .itemright{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+article .itemright #css3nangcao{
+    margin-left: 16px;
+}
+tr th{
+    padding-top: 5px ;
+}
+.input{
+    
+    width: 280px;
+}
+table {
+    padding-top: 20px;
+    width: 100%; 
+    float: left;
+}
+article .button{
+    
+   margin-left: 60%;
+}
+article .button .button1{
+    padding: 8px 35px;
+    background-color: #D5D5D5;
+    color: #1B94BF;
+    font-size: medium;
+    
+}
+.img{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+footer {
+   margin-top: 640px;
+   height: 100px;
+}
+footer {
+    text-align: center;
+    color: #11e984;
+}
+article .error{
+    color: red;
+}

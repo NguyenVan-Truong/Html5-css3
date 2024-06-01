@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="wrapper">
+    <div id="divimg">
+        <img src="small/Corbis-42-34878605.jpg" class="image" onclick="showimg(this.src)">
+        <img src="small/Corbis-42-34977200.jpg" class="image" onclick="showimg(this.src)">
+        <img src="small/Corbis-42-35039915.jpg" class="image" onclick="showimg(this.src)">
+        <img src="small/Corbis-42-35222043.jpg" class="image" onclick="showimg(this.src)">
+        <img src="small/Corbis-42-35405524.jpg" class="image" onclick="showimg(this.src)">
+        <img src="small/Corbis-42-35405550.jpg" class="image" onclick="showimg(this.src)">
+        <img src="small/Corbis-42-35405639.jpg" class="image" onclick="showimg(this.src)">
+        <img src="small/Corbis-42-35442301.jpg" class="image" onclick="showimg(this.src)">
+        <img src="small/Corbis-42-35577350.jpg" class="image" onclick="showimg(this.src)">
+        <img src="small/Corbis-42-35709389.jpg" class="image" onclick="showimg(this.src)">
+    </div>
+    <div class="iconL" onclick="leftAction()">
+        <!-- <i class="fas fa-arrow-circle-left" style="font-size: 45px; color: red;"></i> -->
+        <input type="button" value="pre" onclick="leftAction()" >
+    </div>
+    <div class="iconR" onclick="rightAction()">
+        <!-- <i class="fas fa-arrow-circle-right" style="font-size: 45px; color: red;"></i> -->
+        <input type="button" value="Next" onclick="rightAction()">
+    </div>
+</div>
+<div id="bigimg">
+    <img src="big/Corbis-42-34878605.jpg" alt="">
+</div>
+    
+</body>
+<script src="index.js"></script>
+</html>

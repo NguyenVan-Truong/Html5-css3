@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bai3.css">
+</head>
+<body>
+    <div class="boxcenter">
+    <header>
+        <img src="logo.png"  alt="" width="100%">
+    </header>
+    <nav>
+        <a href="">Trang Chủ <Span class="a">/</Span></a>
+        <a href="">HTML5 Cơ Bản <Span class="a">/</Span></a>
+        <a href="">HTML5 Nâng Cao <Span class="a">/</Span></a>
+        <a href="">Kỹ Thuật HTML5 <Span class="a">/</Span></a>
+        <a href="">Tin Tức HTML5 <Span class="a">/</Span></a>
+        <a href="">Đăng Ký<Span class="a">/</Span></a>
+        <a href="">Đăng Nhập<Span class="a">/</Span></a>
+        <a href="">Liên Hệ</a>
+    </nav>
+    <main>
+        <section class="col8">
+            <p class="tieude">
+                Chào Mừng Các Bạn Đến Với Tạp Chí HTML5
+            </p>
+            <form action="">
+                <div class="form">
+                    <label for="">Tên Đăng Nhập : </label>
+                    <input type="text" id="ten">
+                    <span id="checkten"></span><br>
+                    <label for="">Mật Khẩu: </label>
+                    <input type="password" id="mk">
+                    <span id="checkmk"></span><br>
+                    <label for="">Email : </label>
+                    <input type="email" id="email">
+                    <span id="checkemail"></span><br>
+                    <label for="">Thành Phố : </label>
+                    <input list="city" >
+                    <span id="checkcity"></span><br>
+                    <datalist id="city" >
+                        <option value="Hà Nội">Hà Nội</option>
+                        <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                        <option value="Cần Thơ">Cần Thơ</option>
+                        <option value="Đà Nẵng">Đà Nẵng</option>
+                        <option value="Huế">Huế</option>
+                    </datalist>
+                    <label for="">Độ Tuổi Trung Bình :</label>
+                    <input type="range" min="18" max="45" value="20">
+                </div>
+                <p>Bạn Muốn Theo Dỗi Bài Viết Nào ?</p>
+                <div class="choose">
+                    <label for=""> HTML5 Cơ Bản </label>
+                    <input type="checkbox" checked> 
+                    <label for="">CSS Cơ Bản </label>
+                    <input type="checkbox" check> <br>
+                    <label for=""> HTML5 Nâng Cao</label>
+                    <input type="checkbox" check>
+                    <label for="" >CSS3 Nâng Cao</label>
+                    <input type="checkbox" check>
+                </div>
+                <button type="reset" class="b1">NHập Lại </button>
+                <input type="button" class="b2" value="Đăng Ký" id="btn">
+            </form>
+            <p class="tieude">Thành Phần HTML5</p>
+            <img class="banner" src="banner.jpg" alt="">
+
+        </section>
+        <aside class="col4">
+            <img src="aside.jpg" alt="" srcset="">
+        </aside>
+    </main>
+    <footer>
+        Dây là trang web phục vu việc thực hành của sinh viên FPT Polytechnic <br>
+        Ngiếm cấm sử dụng với mục dích thương mại
+    </footer>
+</div>
+</body>
+<script src="bai3.js"></script>
+</html>

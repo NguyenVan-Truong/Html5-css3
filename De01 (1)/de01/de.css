@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'UTM Duepuntozero';
+    src: url('font/UTM Duepuntozero.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'UTM Duepuntozero Bold';
+    src: url('font/UTM DuepuntozeroBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+body{
+ max-width: 900px;
+ margin: 0 auto;
+ font-family: 'UTM Duepuntozero Bold', sans-serif;
+ /* background-color: beige; */
+}
+#logo{
+    background-color: aliceblue;
+    margin-bottom: 5px;
+}
+nav{
+    background-color: pink;
+    justify-content: space-between;
+    display: flex;
+    height: 30px;
+}
+nav ul li {
+    display: inline-block;
+
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 2px 15px;
+    /* border-left: 1px solid white; */
+    
+}
+.c{
+    border-left: 1px solid white;
+}
+/* ul{
+    margin-left: 0px;
+} */
+#a{
+    border: 1px ;
+}
+#b{
+    border: 1px ;
+}
+#logo{
+    display: flex;
+    justify-items: center;
+}
+/* article{
+    display: flex;
+} */
+
+#left{
+  float: left;
+}
+#right{
+    float: right;
+    
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+}
+.collumns{
+    border: 1px solid black;
+    padding: 30px 25px;
+}
+
+.mota{
+    text-align: center;
+}
+#banner{
+    width: 100%;
+}
+#tieude{
+    background-color: palevioletred;
+}
+article ul{
+    border: 1px solid black;
+    
+}
+article ul li{
+    margin-left: 15px;
+}
